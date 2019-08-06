@@ -119,3 +119,19 @@ print(perfecttencookies)
 print(Array(perfecttencookies.keys))
 
 
+var familytree = [
+    "Meghan" : "older sister",
+    "Mariel" : "little sister",
+    "Toni" : "mother",
+]
+print(familytree.values)
+familytree["Toni"] = nil
+print(familytree.values)
+
+
+print(familytree["Miley"] = "dog")
+    
+print(familytree)
+
+print(Array(familytree))
+
