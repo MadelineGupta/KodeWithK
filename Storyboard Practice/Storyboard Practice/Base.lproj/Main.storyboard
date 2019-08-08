@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Storyboard_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Green">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="50" verticalCompressionResistancePriority="50" misplaced="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="2Ut-6C-HIk">
+                                <rect key="frame" x="61" y="262" width="274" height="108"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" value="7" minValue="-1" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="3kl-zc-EEq">
+                                <rect key="frame" x="1" y="629" width="410" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.75" y="0.84999999999999998" width="1" height="1"/>
+                            </slider>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mJv-HI-YlP">
+                                <rect key="frame" x="88" y="145" width="238" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="xii-l9-XJu"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Hello turtle"/>
+                                    <segment title="Goodbye turtle"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4XU-gy-uX5">
+                                <rect key="frame" x="-46" y="394" width="490" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
+                                <state key="normal" title="turtles like lettuce"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39580120507339978" green="0.5" blue="0.46024046358676091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Ut-6C-HIk" secondAttribute="trailing" constant="70" id="Gcn-sN-GqQ"/>
+                            <constraint firstItem="mJv-HI-YlP" firstAttribute="centerX" secondItem="2Ut-6C-HIk" secondAttribute="centerX" id="ddK-kH-eDK"/>
+                            <constraint firstItem="mJv-HI-YlP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="ezl-n4-xd7"/>
+                            <constraint firstItem="2Ut-6C-HIk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="iGe-oI-viL"/>
+                            <constraint firstItem="mJv-HI-YlP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="lDo-Pv-47P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Ut-6C-HIk" secondAttribute="bottom" constant="20" id="te0-ts-t8I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="111.68478260869566"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images-1" width="88.5" height="59"/>
+    </resources>
+</document>
