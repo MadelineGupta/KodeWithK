@@ -11,8 +11,5 @@ class ToDo{
  var name = " "
 var important = false
     
-    init(todoname : String, todoimportant : Bool) {
-    name = todoname
-    important = todoimportant
-}
+   
 }

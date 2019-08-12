@@ -16,6 +16,8 @@
 		180018E42301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */; };
 		180018F22301A72E00FB03D9 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */; };
 		180018F82301ACD800FB03D9 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018F72301ACD800FB03D9 /* ToDo.swift */; };
+		180018FC2301BFD500FB03D9 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018FB2301BFD500FB03D9 /* AddToDoViewController.swift */; };
+		180018FE2301E02B00FB03D9 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018FD2301E02B00FB03D9 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		180018E52301A42F00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		180018F72301ACD800FB03D9 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		180018FB2301BFD500FB03D9 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		180018FD2301E02B00FB03D9 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			children = (
 				180018C02301A42E00FB03D9 /* AppDelegate.swift */,
 				180018C42301A42E00FB03D9 /* Main.storyboard */,
+				180018FD2301E02B00FB03D9 /* CompleteToDoViewController.swift */,
 				180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */,
 				180018F72301ACD800FB03D9 /* ToDo.swift */,
+				180018FB2301BFD500FB03D9 /* AddToDoViewController.swift */,
 				180018CA2301A42F00FB03D9 /* Assets.xcassets */,
 				180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */,
 				180018CF2301A42F00FB03D9 /* Info.plist */,
@@ -264,7 +270,9 @@
 			files = (
 				180018C92301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld in Sources */,
 				180018F22301A72E00FB03D9 /* ToDoTableViewController.swift in Sources */,
+				180018FC2301BFD500FB03D9 /* AddToDoViewController.swift in Sources */,
 				180018C12301A42E00FB03D9 /* AppDelegate.swift in Sources */,
+				180018FE2301E02B00FB03D9 /* CompleteToDoViewController.swift in Sources */,
 				180018F82301ACD800FB03D9 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

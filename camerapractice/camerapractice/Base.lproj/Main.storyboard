@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="camerapractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4H-PZ-7er">
+                                <rect key="frame" x="20" y="295" width="178" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Take Selfie "/>
+                                <connections>
+                                    <action selector="takeSelfie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6F-D9-bFS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wec-5j-ex3">
+                                <rect key="frame" x="240" y="295" width="144" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Choose From Library"/>
+                                <connections>
+                                    <action selector="photoLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rOE-7X-A69"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="AdF-fv-MoO">
+                                <rect key="frame" x="10" y="30" width="414" height="225"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wec-5j-ex3" firstAttribute="leading" secondItem="M4H-PZ-7er" secondAttribute="trailing" constant="60" id="1F7-Nz-v8B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wec-5j-ex3" secondAttribute="trailing" constant="50" id="GBz-Ag-ucr"/>
+                            <constraint firstItem="M4H-PZ-7er" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KP9-Nq-vjy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wec-5j-ex3" secondAttribute="bottom" constant="400" id="NFu-AW-CT9"/>
+                            <constraint firstItem="AdF-fv-MoO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="U0f-F2-WhT"/>
+                            <constraint firstItem="wec-5j-ex3" firstAttribute="leading" secondItem="M4H-PZ-7er" secondAttribute="trailing" constant="60" id="ZkC-xA-EGs"/>
+                            <constraint firstItem="wec-5j-ex3" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="bT7-fZ-StY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M4H-PZ-7er" secondAttribute="bottom" constant="400" id="iey-X6-HJ5"/>
+                            <constraint firstItem="AdF-fv-MoO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oDU-7O-w1S"/>
+                            <constraint firstItem="AdF-fv-MoO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="qfK-vg-NqT"/>
+                            <constraint firstItem="M4H-PZ-7er" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="qn3-AF-5u9"/>
+                            <constraint firstItem="M4H-PZ-7er" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="yMw-fi-G4X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="newImage" destination="AdF-fv-MoO" id="A3u-w3-xNy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="-17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images-1" width="225" height="225"/>
+    </resources>
+</document>
