@@ -23,7 +23,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="     Pick an animal and we'll give you a disney song!">
                                         <attributes>
-                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="Rockwell-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -96,41 +96,32 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.43317541814854471" green="0.59310639750650029" blue="0.66799789669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KZG-Lf-Ntf" secondAttribute="trailing" constant="70" id="0aI-C3-btu"/>
                             <constraint firstItem="ygX-xe-Ihj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="2cD-Z1-BCV"/>
                             <constraint firstItem="6jY-Jh-Ubs" firstAttribute="top" secondItem="4IG-mH-4Fw" secondAttribute="bottom" constant="40" id="2wG-hv-ayo"/>
+                            <constraint firstItem="ygX-xe-Ihj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="5I2-2g-kKu"/>
                             <constraint firstItem="Qck-cE-njB" firstAttribute="leading" secondItem="4IG-mH-4Fw" secondAttribute="trailing" constant="140" id="6Eb-SB-gLj"/>
                             <constraint firstItem="gdh-1Y-Hcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="8mC-Lk-qZ5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cg6-wS-bWO" secondAttribute="trailing" constant="70" id="9lx-se-4nc"/>
                             <constraint firstItem="gdh-1Y-Hcq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="BfB-89-cTh"/>
                             <constraint firstItem="zg2-Ec-Fw2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="G1E-D4-jme"/>
-                            <constraint firstItem="Qck-cE-njB" firstAttribute="top" secondItem="sGs-AC-zv0" secondAttribute="bottom" constant="40" id="Igt-Aj-Jcx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGs-AC-zv0" secondAttribute="trailing" constant="65" id="K47-72-mJs"/>
+                            <constraint firstItem="sGs-AC-zv0" firstAttribute="leading" secondItem="ygX-xe-Ihj" secondAttribute="trailing" constant="143" id="KEy-hq-cBX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qck-cE-njB" secondAttribute="trailing" constant="70" id="Rhe-Dp-yJ5"/>
                             <constraint firstItem="6jY-Jh-Ubs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="SWs-0h-xcE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gdh-1Y-Hcq" secondAttribute="trailing" constant="5" id="TuA-jL-RJS"/>
-                            <constraint firstItem="zg2-Ec-Fw2" firstAttribute="top" secondItem="6jY-Jh-Ubs" secondAttribute="bottom" constant="40" id="UdC-7a-LVb"/>
-                            <constraint firstItem="KZG-Lf-Ntf" firstAttribute="top" secondItem="cg6-wS-bWO" secondAttribute="bottom" constant="40" id="YWi-jl-bzg"/>
                             <constraint firstItem="sGs-AC-zv0" firstAttribute="top" secondItem="gdh-1Y-Hcq" secondAttribute="bottom" constant="150" id="ZxD-E4-cDu"/>
                             <constraint firstItem="zg2-Ec-Fw2" firstAttribute="top" secondItem="6jY-Jh-Ubs" secondAttribute="bottom" constant="40" id="aLx-8y-ibW"/>
                             <constraint firstItem="KZG-Lf-Ntf" firstAttribute="leading" secondItem="zg2-Ec-Fw2" secondAttribute="trailing" constant="140" id="aod-5D-PBA"/>
-                            <constraint firstItem="ygX-xe-Ihj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="c0f-dd-5W4"/>
-                            <constraint firstItem="6jY-Jh-Ubs" firstAttribute="top" secondItem="4IG-mH-4Fw" secondAttribute="bottom" constant="40" id="cLe-kd-bmM"/>
                             <constraint firstItem="4IG-mH-4Fw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="er3-aS-Mnp"/>
                             <constraint firstItem="ygX-xe-Ihj" firstAttribute="top" secondItem="gdh-1Y-Hcq" secondAttribute="bottom" constant="150" id="gPd-5e-lhW"/>
                             <constraint firstItem="cg6-wS-bWO" firstAttribute="leading" secondItem="6jY-Jh-Ubs" secondAttribute="trailing" constant="140" id="hAk-3w-nDx"/>
-                            <constraint firstItem="sGs-AC-zv0" firstAttribute="leading" secondItem="ygX-xe-Ihj" secondAttribute="trailing" constant="140" id="jf5-po-45m"/>
                             <constraint firstItem="Qck-cE-njB" firstAttribute="top" secondItem="sGs-AC-zv0" secondAttribute="bottom" constant="40" id="kUu-0r-TvI"/>
-                            <constraint firstItem="4IG-mH-4Fw" firstAttribute="top" secondItem="ygX-xe-Ihj" secondAttribute="bottom" constant="40" id="myM-J5-wya"/>
-                            <constraint firstItem="sGs-AC-zv0" firstAttribute="leading" secondItem="ygX-xe-Ihj" secondAttribute="trailing" constant="140" id="qJ2-PC-POz"/>
                             <constraint firstItem="cg6-wS-bWO" firstAttribute="top" secondItem="Qck-cE-njB" secondAttribute="bottom" constant="40" id="qLj-qF-bKs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGs-AC-zv0" secondAttribute="trailing" constant="65" id="tSN-4v-ATu"/>
-                            <constraint firstItem="cg6-wS-bWO" firstAttribute="top" secondItem="Qck-cE-njB" secondAttribute="bottom" constant="40" id="tex-5f-oDB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGs-AC-zv0" secondAttribute="trailing" constant="70" id="tSN-4v-ATu"/>
                             <constraint firstItem="4IG-mH-4Fw" firstAttribute="top" secondItem="ygX-xe-Ihj" secondAttribute="bottom" constant="40" id="wAs-Ph-txS"/>
-                            <constraint firstItem="sGs-AC-zv0" firstAttribute="leading" secondItem="ygX-xe-Ihj" secondAttribute="trailing" constant="140" id="yXL-Ur-Bjs"/>
                             <constraint firstItem="KZG-Lf-Ntf" firstAttribute="top" secondItem="cg6-wS-bWO" secondAttribute="bottom" constant="40" id="yjH-YL-U19"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gdh-1Y-Hcq" secondAttribute="trailing" constant="5" id="zVT-hd-A2A"/>
                         </constraints>
@@ -139,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
+            <point key="canvasLocation" x="345" y="-34"/>
         </scene>
     </scenes>
 </document>

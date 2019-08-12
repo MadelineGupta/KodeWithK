@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         let selectedemotion = sender.titleLabel?.text
          let emojimessage = custommessages[emojis[selectedemotion!]!]
         let alertController = UIAlertController(title: "You Got:", message: "\(emojimessage!)", preferredStyle: UIAlertController.Style.alert)
-        alertController.addAction(UIAlertAction(title :"OK", style : UIAlertAction.Style.default, handler : nil))
+        alertController.addAction(UIAlertAction(title :"Pick again", style : UIAlertAction.Style.default, handler : nil))
         present(alertController, animated : true, completion : nil)
     }
 

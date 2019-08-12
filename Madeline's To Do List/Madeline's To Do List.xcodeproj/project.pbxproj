@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180018C12301A42E00FB03D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018C02301A42E00FB03D9 /* AppDelegate.swift */; };
+		180018C32301A42E00FB03D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018C22301A42E00FB03D9 /* ViewController.swift */; };
+		180018C62301A42E00FB03D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180018C42301A42E00FB03D9 /* Main.storyboard */; };
+		180018C92301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180018C72301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld */; };
+		180018CB2301A42F00FB03D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180018CA2301A42F00FB03D9 /* Assets.xcassets */; };
+		180018CE2301A42F00FB03D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */; };
+		180018D92301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018D82301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift */; };
+		180018E42301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180018D52301A42F00FB03D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180018B52301A42E00FB03D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180018BC2301A42E00FB03D9;
+			remoteInfo = "Madeline's To Do List";
+		};
+		180018E02301A42F00FB03D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180018B52301A42E00FB03D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180018BC2301A42E00FB03D9;
+			remoteInfo = "Madeline's To Do List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180018BD2301A42E00FB03D9 /* Madeline's To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Madeline's To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180018C02301A42E00FB03D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180018C22301A42E00FB03D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180018C52301A42E00FB03D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180018C82301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Madeline_s_To_Do_List.xcdatamodel; sourceTree = "<group>"; };
+		180018CA2301A42F00FB03D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180018CD2301A42F00FB03D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180018CF2301A42F00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180018D42301A42F00FB03D9 /* Madeline's To Do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Madeline's To Do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180018D82301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madeline_s_To_Do_ListTests.swift; sourceTree = "<group>"; };
+		180018DA2301A42F00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180018DF2301A42F00FB03D9 /* Madeline's To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Madeline's To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madeline_s_To_Do_ListUITests.swift; sourceTree = "<group>"; };
+		180018E52301A42F00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180018BA2301A42E00FB03D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018D12301A42F00FB03D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018DC2301A42F00FB03D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180018B42301A42E00FB03D9 = {
+			isa = PBXGroup;
+			children = (
+				180018BF2301A42E00FB03D9 /* Madeline's To Do List */,
+				180018D72301A42F00FB03D9 /* Madeline's To Do ListTests */,
+				180018E22301A42F00FB03D9 /* Madeline's To Do ListUITests */,
+				180018BE2301A42E00FB03D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180018BE2301A42E00FB03D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180018BD2301A42E00FB03D9 /* Madeline's To Do List.app */,
+				180018D42301A42F00FB03D9 /* Madeline's To Do ListTests.xctest */,
+				180018DF2301A42F00FB03D9 /* Madeline's To Do ListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180018BF2301A42E00FB03D9 /* Madeline's To Do List */ = {
+			isa = PBXGroup;
+			children = (
+				180018C02301A42E00FB03D9 /* AppDelegate.swift */,
+				180018C22301A42E00FB03D9 /* ViewController.swift */,
+				180018C42301A42E00FB03D9 /* Main.storyboard */,
+				180018CA2301A42F00FB03D9 /* Assets.xcassets */,
+				180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */,
+				180018CF2301A42F00FB03D9 /* Info.plist */,
+				180018C72301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld */,
+			);
+			path = "Madeline's To Do List";
+			sourceTree = "<group>";
+		};
+		180018D72301A42F00FB03D9 /* Madeline's To Do ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				180018D82301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift */,
+				180018DA2301A42F00FB03D9 /* Info.plist */,
+			);
+			path = "Madeline's To Do ListTests";
+			sourceTree = "<group>";
+		};
+		180018E22301A42F00FB03D9 /* Madeline's To Do ListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */,
+				180018E52301A42F00FB03D9 /* Info.plist */,
+			);
+			path = "Madeline's To Do ListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180018BC2301A42E00FB03D9 /* Madeline's To Do List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180018E82301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do List" */;
+			buildPhases = (
+				180018B92301A42E00FB03D9 /* Sources */,
+				180018BA2301A42E00FB03D9 /* Frameworks */,
+				180018BB2301A42E00FB03D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Madeline's To Do List";
+			productName = "Madeline's To Do List";
+			productReference = 180018BD2301A42E00FB03D9 /* Madeline's To Do List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180018D32301A42F00FB03D9 /* Madeline's To Do ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180018EB2301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do ListTests" */;
+			buildPhases = (
+				180018D02301A42F00FB03D9 /* Sources */,
+				180018D12301A42F00FB03D9 /* Frameworks */,
+				180018D22301A42F00FB03D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180018D62301A42F00FB03D9 /* PBXTargetDependency */,
+			);
+			name = "Madeline's To Do ListTests";
+			productName = "Madeline's To Do ListTests";
+			productReference = 180018D42301A42F00FB03D9 /* Madeline's To Do ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180018DE2301A42F00FB03D9 /* Madeline's To Do ListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180018EE2301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do ListUITests" */;
+			buildPhases = (
+				180018DB2301A42F00FB03D9 /* Sources */,
+				180018DC2301A42F00FB03D9 /* Frameworks */,
+				180018DD2301A42F00FB03D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180018E12301A42F00FB03D9 /* PBXTargetDependency */,
+			);
+			name = "Madeline's To Do ListUITests";
+			productName = "Madeline's To Do ListUITests";
+			productReference = 180018DF2301A42F00FB03D9 /* Madeline's To Do ListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180018B52301A42E00FB03D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Madeline;
+				TargetAttributes = {
+					180018BC2301A42E00FB03D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					180018D32301A42F00FB03D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 180018BC2301A42E00FB03D9;
+					};
+					180018DE2301A42F00FB03D9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 180018BC2301A42E00FB03D9;
+					};
+				};
+			};
+			buildConfigurationList = 180018B82301A42E00FB03D9 /* Build configuration list for PBXProject "Madeline's To Do List" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180018B42301A42E00FB03D9;
+			productRefGroup = 180018BE2301A42E00FB03D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180018BC2301A42E00FB03D9 /* Madeline's To Do List */,
+				180018D32301A42F00FB03D9 /* Madeline's To Do ListTests */,
+				180018DE2301A42F00FB03D9 /* Madeline's To Do ListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180018BB2301A42E00FB03D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180018CE2301A42F00FB03D9 /* LaunchScreen.storyboard in Resources */,
+				180018CB2301A42F00FB03D9 /* Assets.xcassets in Resources */,
+				180018C62301A42E00FB03D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018D22301A42F00FB03D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018DD2301A42F00FB03D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180018B92301A42E00FB03D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180018C92301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld in Sources */,
+				180018C32301A42E00FB03D9 /* ViewController.swift in Sources */,
+				180018C12301A42E00FB03D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018D02301A42F00FB03D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180018D92301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180018DB2301A42F00FB03D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180018E42301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180018D62301A42F00FB03D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180018BC2301A42E00FB03D9 /* Madeline's To Do List */;
+			targetProxy = 180018D52301A42F00FB03D9 /* PBXContainerItemProxy */;
+		};
+		180018E12301A42F00FB03D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180018BC2301A42E00FB03D9 /* Madeline's To Do List */;
+			targetProxy = 180018E02301A42F00FB03D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180018C42301A42E00FB03D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180018C52301A42E00FB03D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180018CD2301A42F00FB03D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180018E62301A42F00FB03D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180018E72301A42F00FB03D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180018E92301A42F00FB03D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180018EA2301A42F00FB03D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180018EC2301A42F00FB03D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madeline's To Do List.app/Madeline's To Do List";
+			};
+			name = Debug;
+		};
+		180018ED2301A42F00FB03D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madeline's To Do List.app/Madeline's To Do List";
+			};
+			name = Release;
+		};
+		180018EF2301A42F00FB03D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Madeline's To Do List";
+			};
+			name = Debug;
+		};
+		180018F02301A42F00FB03D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madeline's To Do ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Madeline.Madeline-s-To-Do-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Madeline's To Do List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180018B82301A42E00FB03D9 /* Build configuration list for PBXProject "Madeline's To Do List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180018E62301A42F00FB03D9 /* Debug */,
+				180018E72301A42F00FB03D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180018E82301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180018E92301A42F00FB03D9 /* Debug */,
+				180018EA2301A42F00FB03D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180018EB2301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180018EC2301A42F00FB03D9 /* Debug */,
+				180018ED2301A42F00FB03D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180018EE2301A42F00FB03D9 /* Build configuration list for PBXNativeTarget "Madeline's To Do ListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180018EF2301A42F00FB03D9 /* Debug */,
+				180018F02301A42F00FB03D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		180018C72301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				180018C82301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodel */,
+			);
+			currentVersion = 180018C82301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodel */;
+			path = Madeline_s_To_Do_List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 180018B52301A42E00FB03D9 /* Project object */;
+}
