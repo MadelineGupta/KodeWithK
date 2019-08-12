@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		180018C12301A42E00FB03D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018C02301A42E00FB03D9 /* AppDelegate.swift */; };
-		180018C32301A42E00FB03D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018C22301A42E00FB03D9 /* ViewController.swift */; };
 		180018C62301A42E00FB03D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180018C42301A42E00FB03D9 /* Main.storyboard */; };
 		180018C92301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180018C72301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld */; };
 		180018CB2301A42F00FB03D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180018CA2301A42F00FB03D9 /* Assets.xcassets */; };
 		180018CE2301A42F00FB03D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */; };
 		180018D92301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018D82301A42F00FB03D9 /* Madeline_s_To_Do_ListTests.swift */; };
 		180018E42301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */; };
+		180018F22301A72E00FB03D9 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */; };
+		180018F82301ACD800FB03D9 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180018F72301ACD800FB03D9 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 /* Begin PBXFileReference section */
 		180018BD2301A42E00FB03D9 /* Madeline's To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Madeline's To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180018C02301A42E00FB03D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		180018C22301A42E00FB03D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		180018C52301A42E00FB03D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180018C82301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Madeline_s_To_Do_List.xcdatamodel; sourceTree = "<group>"; };
 		180018CA2301A42F00FB03D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		180018DF2301A42F00FB03D9 /* Madeline's To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Madeline's To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180018E32301A42F00FB03D9 /* Madeline_s_To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madeline_s_To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		180018E52301A42F00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		180018F72301ACD800FB03D9 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				180018C02301A42E00FB03D9 /* AppDelegate.swift */,
-				180018C22301A42E00FB03D9 /* ViewController.swift */,
 				180018C42301A42E00FB03D9 /* Main.storyboard */,
+				180018F12301A72E00FB03D9 /* ToDoTableViewController.swift */,
+				180018F72301ACD800FB03D9 /* ToDo.swift */,
 				180018CA2301A42F00FB03D9 /* Assets.xcassets */,
 				180018CC2301A42F00FB03D9 /* LaunchScreen.storyboard */,
 				180018CF2301A42F00FB03D9 /* Info.plist */,
@@ -260,8 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				180018C92301A42E00FB03D9 /* Madeline_s_To_Do_List.xcdatamodeld in Sources */,
-				180018C32301A42E00FB03D9 /* ViewController.swift in Sources */,
+				180018F22301A72E00FB03D9 /* ToDoTableViewController.swift in Sources */,
 				180018C12301A42E00FB03D9 /* AppDelegate.swift in Sources */,
+				180018F82301ACD800FB03D9 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
