@@ -40,17 +40,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wec-5j-ex3" firstAttribute="leading" secondItem="M4H-PZ-7er" secondAttribute="trailing" constant="60" id="1F7-Nz-v8B"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wec-5j-ex3" secondAttribute="trailing" constant="50" id="GBz-Ag-ucr"/>
-                            <constraint firstItem="M4H-PZ-7er" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KP9-Nq-vjy"/>
+                            <constraint firstItem="wec-5j-ex3" firstAttribute="leading" secondItem="M4H-PZ-7er" secondAttribute="trailing" constant="30" id="1F7-Nz-v8B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wec-5j-ex3" secondAttribute="trailing" constant="40" id="KrR-Pq-EET"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wec-5j-ex3" secondAttribute="bottom" constant="400" id="NFu-AW-CT9"/>
                             <constraint firstItem="AdF-fv-MoO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="U0f-F2-WhT"/>
-                            <constraint firstItem="wec-5j-ex3" firstAttribute="leading" secondItem="M4H-PZ-7er" secondAttribute="trailing" constant="60" id="ZkC-xA-EGs"/>
+                            <constraint firstItem="M4H-PZ-7er" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="b1Q-Z0-LBi"/>
                             <constraint firstItem="wec-5j-ex3" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="bT7-fZ-StY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M4H-PZ-7er" secondAttribute="bottom" constant="400" id="iey-X6-HJ5"/>
                             <constraint firstItem="AdF-fv-MoO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oDU-7O-w1S"/>
                             <constraint firstItem="AdF-fv-MoO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="qfK-vg-NqT"/>
-                            <constraint firstItem="M4H-PZ-7er" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="qn3-AF-5u9"/>
                             <constraint firstItem="M4H-PZ-7er" firstAttribute="top" secondItem="AdF-fv-MoO" secondAttribute="bottom" constant="40" id="yMw-fi-G4X"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

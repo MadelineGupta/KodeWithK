@@ -11,10 +11,10 @@ import UIKit
 class ToDoTableViewController: UITableViewController {
     
     var toDos : [ToDo] = []
-
-
-func createToDos() -> [ToDo] {
     
+
+
+func createToDos() -> [ToDo] {    
     let swift = ToDo()
     swift.name = "Learn Swift"
     swift.important = true
@@ -31,6 +31,7 @@ func createToDos() -> [ToDo] {
         super.viewDidLoad()
         
  toDos = createToDos()
+       
        
 }
     
@@ -78,6 +79,10 @@ func createToDos() -> [ToDo] {
             let toDo = toDos[indexPath.row]
             
             performSegue(withIdentifier: "moveToComplete", sender: toDo)
+        }
+        
+        func getToDos() {
+            
         }
 
 }

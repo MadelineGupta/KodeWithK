@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4BU-CK-nCj">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Snippets-->
+        <scene sceneID="rDg-1L-qxd">
+            <objects>
+                <tableViewController id="qYQ-RF-Nvc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="syy-C1-wg6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NFP-Vv-7fS">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NFP-Vv-7fS" id="PyX-Ld-rZw">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qYQ-RF-Nvc" id="Jee-JE-8AG"/>
+                            <outlet property="delegate" destination="qYQ-RF-Nvc" id="fKi-hX-aWW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Snippets" id="gYl-vE-5fz">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="zvE-CD-OjR"/>
+                        <barButtonItem key="rightBarButtonItem" title="✂" id="smc-pa-WVe">
+                            <connections>
+                                <segue destination="pdn-Pk-8XO" kind="show" id="6Rb-Ph-0u9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MHg-RL-uIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910.14492753623199" y="132.58928571428572"/>
+        </scene>
+        <!--Add New Snippet -->
+        <scene sceneID="IdQ-Hz-VI9">
+            <objects>
+                <viewController id="pdn-Pk-8XO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q8M-wD-Ihb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mc-Zf-ZNF">
+                                <rect key="frame" x="45" y="114" width="86" height="172"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <state key="normal" title="📸"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5y9-cg-u8n">
+                                <rect key="frame" x="261" y="134" width="75" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="🖼"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="VPS-Xd-d6a">
+                                <rect key="frame" x="83" y="264" width="225" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="180" id="dZP-O9-gVA"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="180" id="ilT-qs-gjf"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Caption" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iri-lT-Iev">
+                                <rect key="frame" x="147" y="474" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gp-2e-8ch">
+                                <rect key="frame" x="164" y="524" width="63" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2gp-2e-8ch" firstAttribute="top" secondItem="iri-lT-Iev" secondAttribute="bottom" constant="20" id="5kA-zy-E2H"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="trailing" secondItem="iri-lT-Iev" secondAttribute="trailing" constant="147" id="Ark-lI-wqF"/>
+                            <constraint firstItem="0Mc-Zf-ZNF" firstAttribute="top" secondItem="iwZ-1h-Ek3" secondAttribute="top" constant="50" id="ECM-NG-HUT"/>
+                            <constraint firstItem="0Mc-Zf-ZNF" firstAttribute="leading" secondItem="iwZ-1h-Ek3" secondAttribute="leading" constant="45" id="EI1-cH-HtW"/>
+                            <constraint firstItem="iri-lT-Iev" firstAttribute="top" secondItem="VPS-Xd-d6a" secondAttribute="bottom" constant="30" id="Iaw-Lj-ngq"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="bottom" secondItem="0Mc-Zf-ZNF" secondAttribute="bottom" constant="450" id="MVv-wL-tbb"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="trailing" secondItem="5y9-cg-u8n" secondAttribute="trailing" constant="45" id="RVd-Im-UnB"/>
+                            <constraint firstItem="VPS-Xd-d6a" firstAttribute="top" secondItem="iwZ-1h-Ek3" secondAttribute="top" constant="200" id="Upm-os-wOa"/>
+                            <constraint firstItem="5y9-cg-u8n" firstAttribute="leading" secondItem="0Mc-Zf-ZNF" secondAttribute="trailing" constant="130" id="VIq-HS-QEO"/>
+                            <constraint firstItem="VPS-Xd-d6a" firstAttribute="leading" secondItem="iwZ-1h-Ek3" secondAttribute="leading" constant="83" id="a0W-1J-3xV"/>
+                            <constraint firstItem="2gp-2e-8ch" firstAttribute="leading" secondItem="iwZ-1h-Ek3" secondAttribute="leading" constant="164" id="fWF-hZ-xd8"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="bottom" secondItem="5y9-cg-u8n" secondAttribute="bottom" constant="450" id="jLv-1U-WyX"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="trailing" secondItem="2gp-2e-8ch" secondAttribute="trailing" constant="164" id="pA7-h4-NrN"/>
+                            <constraint firstItem="iri-lT-Iev" firstAttribute="leading" secondItem="iwZ-1h-Ek3" secondAttribute="leading" constant="147" id="vUT-VS-hWR"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="trailing" secondItem="VPS-Xd-d6a" secondAttribute="trailing" constant="83" id="wH0-03-fFS"/>
+                            <constraint firstItem="5y9-cg-u8n" firstAttribute="top" secondItem="iwZ-1h-Ek3" secondAttribute="top" constant="70" id="yDl-x3-soE"/>
+                            <constraint firstItem="iwZ-1h-Ek3" firstAttribute="bottom" secondItem="2gp-2e-8ch" secondAttribute="bottom" constant="165" id="yQj-iW-Ga1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iwZ-1h-Ek3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add New Snippet " id="kKi-Xt-hGR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yD-RT-O0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657.9710144927537" y="130.43478260869566"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nyI-N7-UCN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4BU-CK-nCj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2hq-BA-qzR">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qYQ-RF-Nvc" kind="relationship" relationship="rootViewController" id="Exy-w6-R2W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZK-gR-zpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="132.58928571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images-1" width="225" height="225"/>
+    </resources>
+</document>
