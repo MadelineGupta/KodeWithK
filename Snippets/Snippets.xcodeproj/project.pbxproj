@@ -14,6 +14,8 @@
 		18001956230304DD00FB03D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18001954230304DD00FB03D9 /* LaunchScreen.storyboard */; };
 		18001961230304DD00FB03D9 /* SnippetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18001960230304DD00FB03D9 /* SnippetsTests.swift */; };
 		1800196C230304DD00FB03D9 /* SnippetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800196B230304DD00FB03D9 /* SnippetsUITests.swift */; };
+		1800197A23030CAE00FB03D9 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */; };
+		1800197C2303139B00FB03D9 /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		18001967230304DD00FB03D9 /* SnippetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1800196B230304DD00FB03D9 /* SnippetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsUITests.swift; sourceTree = "<group>"; };
 		1800196D230304DD00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				18001948230304DB00FB03D9 /* AppDelegate.swift */,
 				1800194C230304DB00FB03D9 /* Main.storyboard */,
+				1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */,
+				1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */,
 				18001952230304DD00FB03D9 /* Assets.xcassets */,
 				18001954230304DD00FB03D9 /* LaunchScreen.storyboard */,
 				18001957230304DD00FB03D9 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18001951230304DB00FB03D9 /* Snippets.xcdatamodeld in Sources */,
+				1800197A23030CAE00FB03D9 /* AddPhotoViewController.swift in Sources */,
 				18001949230304DB00FB03D9 /* AppDelegate.swift in Sources */,
+				1800197C2303139B00FB03D9 /* PhotoTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

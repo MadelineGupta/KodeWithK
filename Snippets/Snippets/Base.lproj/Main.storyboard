@@ -13,7 +13,7 @@
         <!--Snippets-->
         <scene sceneID="rDg-1L-qxd">
             <objects>
-                <tableViewController id="qYQ-RF-Nvc" sceneMemberID="viewController">
+                <tableViewController id="qYQ-RF-Nvc" customClass="PhotoTableTableViewController" customModule="Snippets" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="syy-C1-wg6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--Add New Snippet -->
         <scene sceneID="IdQ-Hz-VI9">
             <objects>
-                <viewController id="pdn-Pk-8XO" sceneMemberID="viewController">
+                <viewController id="pdn-Pk-8XO" customClass="AddPhotoViewController" customModule="Snippets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q8M-wD-Ihb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,11 +58,17 @@
                                 <rect key="frame" x="45" y="114" width="86" height="172"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="📸"/>
+                                <connections>
+                                    <action selector="cameraClicked:" destination="pdn-Pk-8XO" eventType="touchUpInside" id="yfo-gD-E6W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5y9-cg-u8n">
                                 <rect key="frame" x="261" y="134" width="75" height="152"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🖼"/>
+                                <connections>
+                                    <action selector="photoLibraryClicked:" destination="pdn-Pk-8XO" eventType="touchUpInside" id="Fck-Y8-UVS"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="VPS-Xd-d6a">
                                 <rect key="frame" x="83" y="264" width="225" height="180"/>
@@ -81,6 +87,9 @@
                                 <rect key="frame" x="164" y="524" width="63" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveClicked:" destination="pdn-Pk-8XO" eventType="touchUpInside" id="dg0-8l-uBH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -106,6 +115,10 @@
                         <viewLayoutGuide key="safeArea" id="iwZ-1h-Ek3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Snippet " id="kKi-Xt-hGR"/>
+                    <connections>
+                        <outlet property="captionAdded" destination="iri-lT-Iev" id="cfQ-5W-etq"/>
+                        <outlet property="photoAdded" destination="VPS-Xd-d6a" id="NbY-09-Yf4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yD-RT-O0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
