@@ -16,6 +16,7 @@
 		1800196C230304DD00FB03D9 /* SnippetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800196B230304DD00FB03D9 /* SnippetsUITests.swift */; };
 		1800197A23030CAE00FB03D9 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */; };
 		1800197C2303139B00FB03D9 /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */; };
+		1800197E2303360C00FB03D9 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800197D2303360C00FB03D9 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1800196D230304DD00FB03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
+		1800197D2303360C00FB03D9 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				18001948230304DB00FB03D9 /* AppDelegate.swift */,
 				1800194C230304DB00FB03D9 /* Main.storyboard */,
+				1800197D2303360C00FB03D9 /* PhotoDetailViewController.swift */,
 				1800197923030CAE00FB03D9 /* AddPhotoViewController.swift */,
 				1800197B2303139B00FB03D9 /* PhotoTableTableViewController.swift */,
 				18001952230304DD00FB03D9 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				18001951230304DB00FB03D9 /* Snippets.xcdatamodeld in Sources */,
 				1800197A23030CAE00FB03D9 /* AddPhotoViewController.swift in Sources */,
 				18001949230304DB00FB03D9 /* AppDelegate.swift in Sources */,
+				1800197E2303360C00FB03D9 /* PhotoDetailViewController.swift in Sources */,
 				1800197C2303139B00FB03D9 /* PhotoTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
